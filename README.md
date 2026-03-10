@@ -18,14 +18,14 @@
 
 <br>
 
-> Løsninger på reelle optimeringsproblemer med [Pyomo](http://www.pyomo.org/) — fra fabrikkstyring til aluminiumssmelting.
+> Løsninger på reelle optimeringsproblemer med [Pyomo](http://www.pyomo.org/) - fra fabrikkstyring til aluminiumssmelting.
 
 <br>
 
 ## Oppgaver
 
 <details>
-<summary><b>🏭 fabrikk.py — Produksjonsoptimering (LP)</b></summary>
+<summary><b>🏭 fabrikk.py -Produksjonsoptimering (LP)</b></summary>
 <br>
 
 Maksimerer fortjeneste i en fabrikk som produserer to produkter, med begrensninger på produksjonskostnad, CO₂-utslipp og malingstimer.
@@ -35,7 +35,7 @@ Maksimerer fortjeneste i en fabrikk som produserer to produkter, med begrensning
 </details>
 
 <details>
-<summary><b>📍 optimering.py — Lokasjonoptimering (NLP)</b></summary>
+<summary><b>📍 optimering.py -Lokasjonoptimering (NLP)</b></summary>
 <br>
 
 Finner den optimale plasseringen av et nytt kontor basert på vektede avstander til eksisterende kontorer i Pakistan.
@@ -45,7 +45,7 @@ Finner den optimale plasseringen av et nytt kontor basert på vektede avstander 
 </details>
 
 <details>
-<summary><b>💧 hydro.py — Legeringsoptimering (LP)</b></summary>
+<summary><b>💧 hydro.py -Legeringsoptimering (LP)</b></summary>
 <br>
 
 Produksjonsplanlegging for et aluminiumssmelteri. Finner den billigste blandingen av råmaterialer for å treffe kjemiske krav (Si, Fe, Mg).
