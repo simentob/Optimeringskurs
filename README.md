@@ -41,7 +41,13 @@ Finn den optimale plasseringen av et nytt kontor basert på vektede avstander ti
 
 ---
 
-### 💧 `hydro.py` — Hydrooptimering *(under utvikling)*
+### 💧 `hydro.py` — Legeringsoptimering for Norsk Hydro (LP)
+Produksjonsplanlegging for aluminiumssmelteri. Finner den billigste blandingen av råmaterialer og skrapmetall for å oppfylle kjemiske krav (Si, Fe, Mg) til ønsket legering.
+
+- **Del 1:** Optimaliser én charge på 20 tonn
+- **Del 2:** Optimaliser alle ordre fra `orders.csv` samtidig, med delt lagerbeholdning på tvers
+
+**Solver:** GLPK (lineær programmering)
 
 ---
 
@@ -69,6 +75,7 @@ brew install ipopt
 ```bash
 python fabrikk.py
 python optimering.py
+python hydro.py
 ```
 
 ---
